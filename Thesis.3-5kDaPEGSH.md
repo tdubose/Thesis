@@ -1,10 +1,3 @@
-latex input:	mmd-article-header
-Title:			Chapter 3 -- Characterization of 5 kDa PEG-SH
-latex input:	mmd-article-begin-doc
-latex footer:	mmd-memoir-footer
-HTML header:	<script type="text/javascript" src="file:///Users/Theo/MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-BibTex:			theis.bib
-
 In the spring of 2011, several experiments were performed to characterize the 5 kDa PEG-SH (PS), which is used to provide protection to the Au nanospheres. The PS was characterized in three ways: a titration, a time study, and a protection study. These demonstrated that a number concentration of \\(50,\,000\\) PS molecules per Au nanosphere, after 24 hours of incubation, should provide complete long-term protection to the Au nanospheres in a salt-rich environment.
 
 ### Titration Study ###
@@ -21,7 +14,7 @@ A single 5 kDa PEG-SH molecule, with a density of \\(1.11\,\mathrm{\frac{g}{cm^3
 This means that a 5 kDa PEG-SH monolayer has, based on the change in hydrodynamic radius,
 \\[\#_{\mathrm{5\,kDa\ PEG-SH}}=\frac{\frac{4}{3}\pi((60.5\mathrm{\,nm})^3-(51.5\mathrm{\,nm})^3)}{V_{\mathrm{5\,kDa\ PEG-SH}}}=47,500\mathrm{\ 5\,kDa\ PEG-SH}\\]
 This indicates that the measurement of the plateau as beginning at 50,000 PEG-SH per nanosphere is correct. This also allows us to get a sense of the effective ``width``(Prof. Haskell: word choice?) of a PEG-SH molecule as it sits on the gold. At monolayer concentration, the area on the surface of the gold taken up by each PEG-SH molecules is \\[A_{\mathrm{PS}}=\frac{4\pi(51.5 \mathrm{\,nm})^2/\mathrm{Au}}{47,500\,\mathrm{\frac{PS}{Au}}}=.70\mathrm{nm}^2=70\AA^2\\]
-This size is determined partially by the atomic size of the sulfur atom (\\(\diameter=2\AA\\)), but mostly by the extent to which the PEG chain is bunched; clearly, most of the effective width comes from the bunching.
+This size is determined partially by the atomic size of the sulfur atom (\\(D=2\AA\\)), but mostly by the extent to which the PEG chain is bunched; clearly, most of the effective width comes from the bunching.
 
 ### Time Study ###
 

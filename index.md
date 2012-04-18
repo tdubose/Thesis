@@ -7,5 +7,11 @@ BibTex:			theis.bib
 
 # Immunospecific Gold Nanoparticles for Contrast Enhancement of Corneal Tissue Culture #
 
+## Introduction ##
 <<[./Thesis.1-Introduction.md]
-<<[./Thesis.2-DLS.md]
+## Addition of Antibodies to Nanospheres ##
+<<[./Thesis.2-AntibodyBinding.md]
+## Addition of PEG-SH to Nanospheres ##
+<<[./Thesis.3-5kDaPEGSH.md]
+## Results of the Full Protocol ##
+<<[./Thesis.4-FullProtocol.md]

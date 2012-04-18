@@ -1,12 +1,3 @@
-latex input:	mmd-article-header
-Title:			Chapter 2 -- DLS Studies and Protocol Optimization
-latex input:	mmd-article-begin-doc
-latex footer:	mmd-memoir-footer
-HTML header:	<script type="text/javascript" src="file:///Users/Theo/MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-BibTex:			theis.bib
-
-## Introduction ##
-
 According to the National Eye Institute (NEI), approximately 40,000 cornea transplants are performed every year in the United States. Unfortunately, about 20 percent (8000 per year) of these transplants are rejected [#NEI], necessitating a second transplant. An increase in the number of procedures is inconvenient for the patient at best; therefore, it is desirable to find ways to minimize the amount of rejection as well as increase the overall supply of tissue for cornea transplants.
 
 ### Corneal Engineering ###
@@ -19,15 +10,15 @@ Unfortunately, the collagen in the scaffold scatters too highly for the OCM to d
 
 ![Stages of indirect immunolabeling presented schematically (not to scale). (a) The primary antibody, MAB199, binds to the targeted surface protein, \\(\alpha 5 \beta 1\\)-integrin. (b) Secondary antibodies, AP124F, are bound to the surface of a gold nanoparticle. (c) A gold nanoparticle-secondary antibody complex binds to the primary antibody, which in turn in bound to the surface protein.][indirectimmunolabeling]
 
-[indirectimmunolabeling]: ./pegylation.jpg
+[indirectimmunolabeling]: ./PEGylation.jpg
 
 Jamie Shoffeit '05, Megan Arman '06, and Emily Hogan '07 all followed on Raub's work to achieve labeling. The process they consisted of creating 35 nm diameter gold nanoparticles from a citrate reduction of Au(III) and binding the antibodies to the nanoparticles via Van der Waals forces alone. Although Hogan was finally able to use this technique to produce a statistically significant increase in scattering in 2007, the scattering increase was not as great as was desired.
 
 To address this, David Coats '08 did a number of studies to optimize the gold being used as the labeling agent. Coats performed extensive calculations using Mie theory to maximize scattering. Mie theory details the scattering pattern of particles on the order of or larger than the wavelength of light they scatter. As even a 35 nm nanoparticle cannot be approximated as a point when using 850 nm light, Mie theory provides a far more accurate prediction of the intensity of backscattered intensity than Rayleigh scattering theory. These calculations showed that for any diameter, a particle made of solid gold (versus a particle with an inner core of silica) gave the highest scattering to absorption cross-section ratio, as shown in [](#whatcore). As can also be seen in that image, \\(C_{sca}/C_{abs}\\) also increases with diameter, up to a point. However, the settling rate of the gold particles also had to be taken into account, as well as the availability of manufactured gold nanoparticles. With these multiple factors in consideration, it was decided that 90 nm diameter nanoparticles from Nanopartz would be used. With these improved gold particles, David Coats again performed imaging tests on a monolayer of cells. However, the same lack of obvious signal generation prompted even further investigation.
 
-![Plot of ratio of scattering cross section \\(C_{sca}\\) to absorption cross section \\(C_{abs}\\) as a function of total particle diameter, calculated via Mie theory. Line color, as indicated by legend, corresponds to percent of total diameter taken up by silica inner core. Index of refraction values used are \\(n_{\text{silica}}=0.194 – 5.527i\\), \\(n_{\text{silica}}=1.44\\), and \\(n_{\text{water}}=1.33\\) for the surrounding region.][whatcore]
+![Plot of ratio of scattering cross section \\(C_{sca}\\) to absorption cross section \\(C_{abs}\\) as a function of total particle diameter, calculated via Mie theory. Line color, as indicated by legend, corresponds to percent of total diameter taken up by silica inner core. Index of refraction values used are \\(n_{\mathrm{silica}}=0.194 – 5.527i\\), \\(n_{\mathrm{silica}}=1.44\\), and \\(n_{\mathrm{water}}=1.33\\) for the surrounding region.][whatcore]
 
-[whatcore]: /Users/Theo/Dropbox/Documents/HMC.12.SP/Research/Thesis/CscaCabs.tiff "Plot of ratio of scattering cross section to absorption cross section" width=4in
+[whatcore]: /Users/Theo/Dropbox/Documents/HMC.12.SP/Research/Thesis/CscaCabs.pdf "Plot of ratio of scattering cross section to absorption cross section" width=4in
 
 One concern regarding the labeling system was that the antibodies were bound to the gold with only van der Waals forces. Rob Warren '10 discovered a procedure in a paper by Lowery et al.[](#westpegylation) by which increased binding had been achieved for immunolabeling. The procedure consists of using a polyethylene glycol (PEG) polymer chain functionalized at one end with orthopyridyl disulfide (OPSS) and at the other with an N-Hydroxysuccinimide ester (NHS). The OPSS-PEG-NHS is incubated with the antibody for 24 hours, in which time the NHS ester reacts with a lysine in the antibody, leaving the NHS ester free in solution and the antibody attached to the OPSS-PEG. This OPAb, as we call it, is then incubated with the gold for 24 hours, so that the OPSS group splits at the disulfide bond and the PEG chain attaches to the gold via a thiol bond, which has a strength slightly less than that of a covalent bond and much larger than that of a van der Waals bond !(appendix or footnote or reference on thiol bonds?). This should ensure that the antibody is firmly attached to the gold. The second part of the procedure is to prevent any other molecules from binding with the gold. This is accomplished by binding another PEG chain to the gold, of which one end is functionalized with a thiol group (SH) that then forms a thiol bond with the gold. This should fill on any space left after the addition of the OPAb. 
 

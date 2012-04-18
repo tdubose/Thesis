@@ -9,7 +9,7 @@ At the end of Summer 2010, Oliver Hoidn and Perry Ellis had determined that the 
 
 ![Schematic diagram of the OPN+antibody\\(\to\\)OPAb reaction. **R** represents the OPSS-PEG, and **R'** represents the antibody. The reaction is favored in basic conditions. From [][#nhsreaction]][NHSreaction]
 
-[NHSreaction]: NHSreaction.gif
+[NHSreaction]: NHSreaction.jpg
 
 Although the reaction requires a basic pH (>7) to run, basic conditions also favor a competing reaction, in which hydrolysis occurs and the NHS ester is replaced with a hydroxyl group. This renders the molecule unable to bind to antibodies, and the half-life of the hydrolysis reaction can be on the order of minutes at pH 8[][#nhshalflife]. Consequently, there was a concern that a large portion of the OPN used in the OPN+antibody\\(\to\\)OPAb reaction was not binding to the antibody.
 

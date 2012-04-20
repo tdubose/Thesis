@@ -3,52 +3,51 @@ The top-level auxiliary file: index.aux
 The style file: plain.bst
 Database file #1: theis.bib.bib
 Warning--entry type for "nhshalflife" isn't style-file defined
---line 25 of file theis.bib.bib
+--line 64 of file theis.bib.bib
 Warning--entry type for "nhsreaction" isn't style-file defined
---line 34 of file theis.bib.bib
-Warning--I didn't find a database entry for "NEI"
-Warning--I didn't find a database entry for "Sokolov"
-Warning--I didn't find a database entry for "RaubThesis"
+--line 73 of file theis.bib.bib
+Warning--entry type for "NEIcornea" isn't style-file defined
+--line 151 of file theis.bib.bib
 Warning--empty note in hoidnellis
-You've used 6 entries,
+You've used 13 entries,
             2118 wiz_defined-function locations,
-            537 strings with 4852 characters,
-and the built_in function-call counts, 1803 in all, are:
-= -- 169
-> -- 91
-< -- 0
-+ -- 38
-- -- 30
-* -- 129
-:= -- 311
-add.period$ -- 16
-call.type$ -- 6
-change.case$ -- 33
+            565 strings with 6143 characters,
+and the built_in function-call counts, 4070 in all, are:
+= -- 388
+> -- 209
+< -- 2
++ -- 85
+- -- 70
+* -- 287
+:= -- 699
+add.period$ -- 36
+call.type$ -- 13
+change.case$ -- 71
 chr.to.int$ -- 0
-cite$ -- 7
-duplicate$ -- 53
-empty$ -- 141
-format.name$ -- 30
-if$ -- 361
+cite$ -- 14
+duplicate$ -- 134
+empty$ -- 305
+format.name$ -- 70
+if$ -- 827
 int.to.chr$ -- 0
-int.to.str$ -- 6
-missing$ -- 3
-newline$ -- 31
-num.names$ -- 12
-pop$ -- 33
+int.to.str$ -- 13
+missing$ -- 6
+newline$ -- 65
+num.names$ -- 26
+pop$ -- 73
 preamble$ -- 1
-purify$ -- 27
+purify$ -- 61
 quote$ -- 0
-skip$ -- 48
+skip$ -- 114
 stack$ -- 0
-substring$ -- 115
-swap$ -- 5
-text.length$ -- 0
+substring$ -- 238
+swap$ -- 25
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 24
+type$ -- 52
 warning$ -- 1
-while$ -- 17
-width$ -- 7
-write$ -- 58
-(There were 6 warnings)
+while$ -- 36
+width$ -- 15
+write$ -- 132
+(There were 4 warnings)

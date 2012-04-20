@@ -1,4 +1,16 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{chanshoffeit}
+Clarence W.~C. Chan and Jamie~L. Shoffeit.
+\newblock {\em ntibody-Gold Nanoparticle Conjugation for Immunogold Labeling in
+  Optical Coherence Microscopy}.
+\newblock PhD thesis, Harvey Mudd College, May 2006.
+
+\bibitem{coats}
+David Coats.
+\newblock {\em Visualization of Cells and Cell Phenotype in Tissue-Engineered
+  Corneas via Immunogold Labeling}.
+\newblock PhD thesis, Harvey Mudd College, 2008.
 
 \bibitem{hoidnellis}
 Perry Ellis and Oliver Hoidn.
@@ -10,9 +22,19 @@ Hannes Fischer, Igor Polikarpov, and Aldo~F. Craievich.
 \newblock Average protein density is a molecular-weight-dependent function.
 \newblock {\em Protein Science}, 13(10):2825--2828, 2004.
 
+\bibitem{NEIcornea}
+National~Eye Institute.
+\newblock Facts about the cornea and corneal disease.
+
 \bibitem{nhshalflife}
 Inc. Laysan~Bio.
 \newblock Hydrolysis half-lives.
+
+\bibitem{westpegylation}
+Amanda~R Lowery, Andr{\'e}~M Gobin, Emily~S Day, Naomi~J Halas, and Jennifer~L
+  West.
+\newblock Immunonanoshells for targeted photothermal ablation of tumor cells.
+\newblock {\em International Journal of Nanomedicince}, 1(2):149--154, 2006.
 
 \bibitem{Miron_Wilchek_1982}
 T~Miron and M~Wilchek.
@@ -24,11 +46,32 @@ T~Miron and M~Wilchek.
 Pierce Protein~Research Products.
 \newblock Chemistry of crosslinking.
 
+\bibitem{raub}
+Chris~B. Raub, Elizabeth~J. Orwin, and Richard~C. Haskell.
+\newblock Immunogold labeling to enhance contrast in optical coherence
+  microscopy of tissue engineered corneal constructs.
+\newblock In {\em Proceedings of the 26th Annual International Conference of
+  the IEEE, Engineering In Medicine and Biology Society}, volume~1, pages
+  1210--1213, 2004.
+
+\bibitem{Sokolov}
+Konstantin Sokolov, Michele Follen, Jesse Aaron, Ina Pavlova, Anais Malpica,
+  Reuben Lotan, and Rebecca Richards-Kortum.
+\newblock Real-time vital optical imaging of precancer using anti-epidermal
+  growth factor receptor antibodies conjugated to gold nanoparticles.
+\newblock {\em Cancer Research}, 63(9):1999--2004, 2003.
+
 \bibitem{antibodylength}
 Yih~Horng Tan, Maozi Liu, Birte Nolting, Joan~G. Go, Jacquelyn Gervay-Hague,
   and Gang-yu Liu.
 \newblock A nanoengineering approach for investigation and regulation of
   protein immobilization.
 \newblock {\em ACS Nano}, 2(11):2374--2384, 2008.
+
+\bibitem{warren}
+Robert Warren.
+\newblock {\em Immunogold Labeling of a Tissue-Engineered Cornea: Increasing
+  the Binding Specificity of Immunogold Labeling via PEGylation}.
+\newblock PhD thesis, Harvey Mudd College, 2010.
 
 \end{thebibliography}

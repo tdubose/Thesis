@@ -6,4 +6,4 @@ HTML header:	<script type="text/javascript" src="file:///Users/Theo/MathJax/Math
 BibTex:			theis.bib
 
 ## Addition of PEG-SH to Nanospheres ##
-<<[./Thesis.3-5kDaPEG-SH.md]
+<<[./Thesis.3-5kDaPEGSH.md]

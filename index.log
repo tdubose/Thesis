@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009) (format=pdflatex 2009.11.7)  18 APR 2012 16:58
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009) (format=pdflatex 2009.11.7)  20 APR 2012 16:01
 entering extended mode
  %&-line parsing enabled.
 **index
@@ -1043,62 +1043,71 @@ LaTeX Warning: Reference `app:pegylation' on page 7 undefined on input line 28.
 
 
 ) (./Thesis.3-5kDaPEGSH.tex [7 <./NHShydro.pdf>]
-<../../../Archived.Work/HMC.11.SP/Research/5kdaPEGSHnew.pdf, id=149, 453.695pt 
-x 338.26375pt>
-File: ../../../Archived.Work/HMC.11.SP/Research/5kdaPEGSHnew.pdf Graphic file (
-type pdf)
-
-<use ../../../Archived.Work/HMC.11.SP/Research/5kdaPEGSHnew.pdf> [8 <../../../A
-rchived.Work/HMC.11.SP/Research/5kdaPEGSHnew.pdf>]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 22.
-
-(/usr/local/texlive/2009/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-
-LaTeX Warning: Command \r invalid in math mode on input line 22.
-
-Missing character: There is no Å in font cmr10!
-
-LaTeX Warning: Command \r invalid in math mode on input line 23.
-
-Missing character: There is no Å in font cmr10!
-
-<../../../Archived.Work/HMC.11.SP/Research/5kdaPEGSHtime.pdf, id=167, 453.695pt
- x 338.26375pt>
-File: ../../../Archived.Work/HMC.11.SP/Research/5kdaPEGSHtime.pdf Graphic file 
-(type pdf)
-
-<use ../../../Archived.Work/HMC.11.SP/Research/5kdaPEGSHtime.pdf>
-Overfull \hbox (1.28238pt too wide) in paragraph at lines 44--45
-\T1/cmr/m/n/10 nanospheres from con-glom-er-a-tion. The Au nanosphere so-lu-tio
-n in-cludes a neg-a-tively charged
- []
-
-
-<../../../Archived.Work/HMC.11.SP/Research/Protection1kDa.pdf, id=170, 737.1570
+<../../../Archived.Work/HMC.11.SP/Research/Protection1kDa.pdf, id=151, 737.1570
 3pt x 587.3161pt>
 File: ../../../Archived.Work/HMC.11.SP/Research/Protection1kDa.pdf Graphic file
  (type pdf)
 
-<use ../../../Archived.Work/HMC.11.SP/Research/Protection1kDa.pdf> [9]
-<../../../Archived.Work/HMC.11.SP/Research/protection.pdf, id=181, 447.6725pt x
- 335.2525pt>
-File: ../../../Archived.Work/HMC.11.SP/Research/protection.pdf Graphic file (ty
-pe pdf)
- <use ../../../Archived.Work/HMC.11.SP/Research/protection.pdf>)
-(./Thesis.4-FullProtocol.tex
+<use ../../../Archived.Work/HMC.11.SP/Research/Protection1kDa.pdf>
 
-LaTeX Warning: Reference `a:protocol' on page 10 undefined on input line 1.
+Package natbib Warning: Citation `Titration_Study' on page 8 undefined on input
+ line 12.
 
-[10 <../../../Archived.Work/HMC.11.SP/Research/5kdaPEGSHtime.pdf>] [11 <../../.
-./Archived.Work/HMC.11.SP/Research/Protection1kDa.pdf> <../../../Archived.Work/
-HMC.11.SP/Research/protection.pdf>]
-<2011DecPEGylation.pdf, id=225, 1031.855pt x 771.88374pt>
+
+Package natbib Warning: Citation `Time_Study' on page 8 undefined on input line
+ 12.
+
+
+Package natbib Warning: Citation `Protection_Study' on page 8 undefined on inpu
+t line 12.
+
+[8 <../../../Archived.Work/HMC.11.SP/Research/Protection1kDa.pdf>]
+<./ImmediateExploratory.pdf, id=168, 500.87125pt x 367.24702pt>
+File: ./ImmediateExploratory.pdf Graphic file (type pdf)
+
+<use ./ImmediateExploratory.pdf>
+<ImmediateAvg.pdf, id=170, 500.87125pt x 367.24702pt>
+File: ImmediateAvg.pdf Graphic file (type pdf)
+ <use ImmediateAvg.pdf>
+<TimeAvg.pdf, id=172, 488.82625pt x 364.98859pt>
+File: TimeAvg.pdf Graphic file (type pdf)
+ <use TimeAvg.pdf>
+
+Package natbib Warning: Citation `5kdaPEGSHnewavg' on page 9 undefined on input
+ line 47.
+
+
+Package natbib Warning: Citation `5kdaPEGSHnewavg' on page 9 undefined on input
+ line 47.
+
+[9 <./ImmediateExploratory.pdf>] [10 <./ImmediateAvg.pdf>]
+
+LaTeX Warning: Command \r invalid in math mode on input line 62.
+
+Missing character: There is no Å in font cmr10!
+
+LaTeX Warning: Command \r invalid in math mode on input line 63.
+
+Missing character: There is no Å in font cmr10!
+
+Overfull \hbox (1.28238pt too wide) in paragraph at lines 68--69
+\T1/cmr/m/n/10 nanospheres from con-glom-er-a-tion. The Au nanosphere so-lu-tio
+n in-cludes a neg-a-tively charged
+ []
+
+[11 <./TimeAvg.pdf>] <RadiusHistPBS.pdf, id=221, 839.135pt x 671.50874pt>
+File: RadiusHistPBS.pdf Graphic file (type pdf)
+
+<use RadiusHistPBS.pdf>) (./Thesis.4-FullProtocol.tex
+
+LaTeX Warning: Reference `a:protocol' on page 12 undefined on input line 1.
+
+[12 <./RadiusHistPBS.pdf>]
+<2011DecPEGylation.pdf, id=241, 1031.855pt x 771.88374pt>
 File: 2011DecPEGylation.pdf Graphic file (type pdf)
 
 <use 2011DecPEGylation.pdf>
-<iggstructure.pdf, id=226, 840.13875pt x 649.42625pt>
+<iggstructure.pdf, id=242, 840.13875pt x 649.42625pt>
 File: iggstructure.pdf Graphic file (type pdf)
  <use iggstructure.pdf>)
 (/Users/Theo/Library/texmf/tex/latex/mmd/mmd-memoir-footer.tex (./index.bbl
@@ -1106,22 +1115,26 @@ File: iggstructure.pdf Graphic file (type pdf)
 \tf@brf=\write9
 \openout9 = `index.brf'.
 
- [12] [13 <./2011DecPEGylation.pdf> <./iggstructure.pdf>])
+ [13] [14 <./2011DecPEGylation.pdf> <./iggstructure.pdf>])
 No file index.gls.
 No file index.ind.
-) [14] (./index.aux)
+)
+
+Package natbib Warning: There were undefined citations.
+
+[15] (./index.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 10795 strings out of 493848
- 152230 string characters out of 3149207
- 304705 words of memory out of 3000000
- 13813 multiletter control sequences out of 15000+200000
- 16207 words of font info for 37 fonts, out of 3000000 for 9000
+ 10787 strings out of 493848
+ 151332 string characters out of 3149207
+ 305510 words of memory out of 3000000
+ 13806 multiletter control sequences out of 15000+200000
+ 15894 words of font info for 36 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 46i,11n,38p,1546b,404s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 46i,12n,38p,1546b,404s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2009/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
 /usr/local/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></u
@@ -1138,11 +1151,10 @@ e/2009/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/
 /texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2009/t
 exmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2009/tex
 mf-dist/fonts/type1/public/cm-super/sfsl1000.pfb></usr/local/texlive/2009/texmf
--dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2009/texmf-d
-ist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on index.pdf (14 pages, 1493254 bytes).
+-dist/fonts/type1/public/cm-super/sfti1000.pfb>
+Output written on index.pdf (15 pages, 1475653 bytes).
 PDF statistics:
- 358 PDF objects out of 1000 (max. 8388607)
- 56 named destinations out of 1000 (max. 500000)
- 131 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 375 PDF objects out of 1000 (max. 8388607)
+ 58 named destinations out of 1000 (max. 500000)
+ 136 words of extra memory for PDF output out of 10000 (max. 10000000)
 

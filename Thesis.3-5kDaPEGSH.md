@@ -47,7 +47,7 @@ Therefore, the protection capabilities of 5 kDa PS were tested by adding PEG-SH 
 
 ![Stacked histograms of differing concentrations of Au-PS with and without PBS. The naked gold is significantly broader than any of the other distributions.][protection]
 
-[protection]: RadiusHistPBS.pdf width=4in
+[protection]: RadiusHistPBS.pdf width=5in
 
 For all but the naked gold, almost all acquisitions are within 3 nm of the mean; this is also true of the 300k PS/Au without PBS from Summer 2010. However, with just 10k 5 kDa PS/Au, the width of the distribution barely widens when PBS is added--a stark contrast to the addition of PBS to 300k 1 kDa PS/Au. Furthermore, there was a ~15 nm increase in average radius between the 1 kDa PS spheres with and without PBS. In the case of the 10k 5 kDa PS/Au, the difference in average radius was negligible: 0.09 nm.
 

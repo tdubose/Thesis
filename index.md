@@ -15,3 +15,7 @@ BibTex:			theis.bib
 <<[./Thesis.3-5kDaPEGSH.md]
 ## Results of the Full Protocol ##
 <<[./Thesis.4-FullProtocol.md]
+## Results of the 6 March Labeling Session##
+<<[./Thesis.5-6marLabeling.md]
+## Results of the 3 April Labeling Session##
+<<[./Thesis.6-3aprLabeling.md]

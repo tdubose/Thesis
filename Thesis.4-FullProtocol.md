@@ -20,11 +20,11 @@ since the NHS replacement can occur on any lysine or N terminus (of which there 
 
 [iggstructure]: iggstructure.pdf width=3in
 
-An OPAb conjugate should have a volume of
+Additional analysis can be performed by using the same number estimation as in [](#additionofpeg-shtonanospheres). An OPAb conjugate should have a volume of
 \\[V=V_{\mathrm{PEG}}+V_{\mathrm{Ab}}=\frac{2.1\mathrm{kDa}}{1.11\frac{\mathrm g}{\mathrm cm^3}}+\frac{160\mathrm{kDa}}{1.35\frac{\mathrm g}{\mathrm cm^3}}=200\,\mathrm{nm}^3\\]
 Examining the hydrodynamic volume change after the addition of PEG-SH, this corresponds to
 \\[\frac{4}{3}\pi[(58\mathrm{\,nm})^3-(51.5\mathrm{\,nm})^3]/200\frac{\mathrm{nm}^3}{OPAb}=1230\mathrm{\ OPAb}\\]
-However, this is likely an under-estimate, as the 1.35 \\(\mathrm{\frac{g}{cm^3}}\\) density is for the crystalline state of protein[][#proteindensity]; the actual effective volume of the OPAb in solution is likely larger. Further uncertainty is introduced by the complexity of the diffusion of an Au nanosphere with over 1000 OPAb molecules attached to it. Therefore, this calculation serves primarily as an order-of-magnitude check; in that sense, 1230 OPAb/Au compares quite favorably to the 2000 OPAb/Au in solution.
+However, this may be an over-estimate, as the 1.35 \\(\mathrm{\frac{g}{cm^3}}\\) density is for the crystalline state of protein[][#proteindensity]; the actual effective volume of the OPAb in solution may be larger. Further uncertainty is introduced by the complexity of the diffusion of an Au nanosphere with over 1000 OPAb molecules attached to it. Therefore, this calculation serves primarily as an order-of-magnitude check; in that sense, 1230 OPAb/Au compares quite favorably to the 2000 OPAb/Au in solution.
 
 We can again perform a calculation of effective width: \\[A_{\mathrm{OPN}}=\frac{4\pi(51.5\mathrm{\,nm})^2/\mathrm{Au}}{1230\mathrm{\frac{OPAb}{Au}}}=27.1\,\mathrm{nm}^2\\]
-This is considerably larger than the effective width of the PEG-SH, indicating that the OPAb molecules on the nanosphere sterically (word choice?) hinder other OPAb molecules from forming thiol bonds with the nanosphere surface.
+This is considerably larger than the effective width of the PEG-SH, indicating that the OPAb molecules on the nanosphere sterically (word choice?) hinder other OPAb molecules from forming thiol bonds with the nanosphere surface. Since the binding mechanism between the PEG chain and the gold surface is the same, this means that there is likely additional room for thiol bonds on the surface, which means that that the PEG-SH should fill in gaps on the surface of the sphere.

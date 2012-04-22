@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009) (format=pdflatex 2009.11.7)  21 APR 2012 16:28
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009) (format=pdflatex 2009.11.7)  22 APR 2012 15:41
 entering extended mode
  %&-line parsing enabled.
-**index
+**index.tex
 (./index.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
@@ -1014,21 +1014,21 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 8.
 
-<./IndirectImmunolabeling.pdf, id=70, 3083.52pt x 1156.32pt>
+<./IndirectImmunolabeling.pdf, id=78, 3083.52pt x 1156.32pt>
 File: ./IndirectImmunolabeling.pdf Graphic file (type pdf)
 
 <use ./IndirectImmunolabeling.pdf> [3]
-<CscaCabs.pdf, id=87, 2055.68pt x 1691.95013pt>
+<CscaCabs.pdf, id=95, 2055.68pt x 1691.95013pt>
 File: CscaCabs.pdf Graphic file (type pdf)
- <use CscaCabs.pdf> [4 <./IndirectImmunolabeling.pdf>] <pegylation.jpg, id=124,
+ <use CscaCabs.pdf> [4 <./IndirectImmunolabeling.pdf>] <pegylation.jpg, id=132,
  1027.84pt x 770.88pt>
 File: pegylation.jpg Graphic file (type jpg)
 
 <use pegylation.jpg> [5 <./CscaCabs.pdf>]) (./Thesis.2-AntibodyBinding.tex
-[6 <./pegylation.jpg>] <NHSreaction.jpg, id=155, 479.7925pt x 103.38625pt>
+[6 <./pegylation.jpg>] <NHSreaction.jpg, id=163, 479.7925pt x 103.38625pt>
 File: NHSreaction.jpg Graphic file (type jpg)
 
-<use NHSreaction.jpg> <NHShydro.pdf, id=161, 460.72125pt x 338.26375pt>
+<use NHSreaction.jpg> <NHShydro.pdf, id=169, 460.72125pt x 338.26375pt>
 File: NHShydro.pdf Graphic file (type pdf)
 
 <use NHShydro.pdf>
@@ -1037,20 +1037,20 @@ LaTeX Warning: Reference `app:pegylation' on page 7 undefined on input line 28.
 
 
 ) (./Thesis.3-5kDaPEGSH.tex [7 <./NHSreaction.jpg>]
-<../../../Archived.Work/HMC.11.SP/Research/Protection1kDa.pdf, id=177, 737.1570
+<../../../Archived.Work/HMC.11.SP/Research/Protection1kDa.pdf, id=185, 737.1570
 3pt x 587.3161pt>
 File: ../../../Archived.Work/HMC.11.SP/Research/Protection1kDa.pdf Graphic file
  (type pdf)
 
 <use ../../../Archived.Work/HMC.11.SP/Research/Protection1kDa.pdf> [8 <./NHShyd
-ro.pdf>] <./ImmediateExploratory.pdf, id=201, 500.87125pt x 367.24702pt>
+ro.pdf>] <./ImmediateExploratory.pdf, id=209, 500.87125pt x 367.24702pt>
 File: ./ImmediateExploratory.pdf Graphic file (type pdf)
 
 <use ./ImmediateExploratory.pdf>
-<ImmediateAvg.pdf, id=203, 500.87125pt x 367.24702pt>
+<ImmediateAvg.pdf, id=211, 500.87125pt x 367.24702pt>
 File: ImmediateAvg.pdf Graphic file (type pdf)
  <use ImmediateAvg.pdf>
-<TimeAvg.pdf, id=205, 488.82625pt x 364.98859pt>
+<TimeAvg.pdf, id=213, 488.82625pt x 364.98859pt>
 File: TimeAvg.pdf Graphic file (type pdf)
  <use TimeAvg.pdf> [9 <../../../Archived.Work/HMC.11.SP/Research/Protection1kDa
 .pdf>] [10 <./ImmediateExploratory.pdf>]
@@ -1059,7 +1059,7 @@ Overfull \hbox (1.28238pt too wide) in paragraph at lines 68--69
 n in-cludes a neg-a-tively charged
  []
 
-[11 <./ImmediateAvg.pdf>] <RadiusHistPBS.pdf, id=254, 839.135pt x 671.50874pt>
+[11 <./ImmediateAvg.pdf>] <RadiusHistPBS.pdf, id=262, 839.135pt x 671.50874pt>
 File: RadiusHistPBS.pdf Graphic file (type pdf)
 
 <use RadiusHistPBS.pdf>) (./Thesis.4-FullProtocol.tex
@@ -1067,36 +1067,59 @@ File: RadiusHistPBS.pdf Graphic file (type pdf)
 LaTeX Warning: Reference `a:protocol' on page 12 undefined on input line 1.
 
 [12 <./TimeAvg.pdf>] [13 <./RadiusHistPBS.pdf>]
-<2011DecPEGylation.pdf, id=295, 1031.855pt x 771.88374pt>
+<2011DecPEGylation.pdf, id=303, 1031.855pt x 771.88374pt>
 File: 2011DecPEGylation.pdf Graphic file (type pdf)
 
 <use 2011DecPEGylation.pdf>
-<iggstructure.pdf, id=296, 840.13875pt x 649.42625pt>
+<iggstructure.pdf, id=304, 840.13875pt x 649.42625pt>
 File: iggstructure.pdf Graphic file (type pdf)
  <use iggstructure.pdf>
-[14 <./2011DecPEGylation.pdf>]) (./Thesis.5-6marLabeling.tex)
-(./Thesis.6-3aprLabeling.tex)
+[14 <./2011DecPEGylation.pdf>]) (./Thesis.5-6marLabeling.tex [15 <./iggstructur
+e.pdf>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 13.
+
+Overfull \hbox (19.88394pt too wide) in paragraph at lines 13--26
+ [][] 
+ []
+
+
+LaTeX Warning: Reference `a:6marprotocol' on page 16 undefined on input line 32
+.
+
+[16]
+
+LaTeX Warning: Reference `marocmcollage' on page 17 undefined on input line 52.
+
+
+<ConfocalReps.pdf, id=354, 1577.94229pt x 2376.69424pt>
+File: ConfocalReps.pdf Graphic file (type pdf)
+ <use ConfocalReps.pdf>
+
+LaTeX Warning: Float too large for page by 74.4431pt on input line 59.
+
+) (./Thesis.6-3aprLabeling.tex)
 (/Users/Theo/Library/texmf/tex/latex/mmd/mmd-memoir-footer.tex (./index.bbl
 (./index.brf)
 \tf@brf=\write9
 \openout9 = `index.brf'.
 
- [15 <./iggstructure.pdf>])
+ [17] [18 <./ConfocalReps.pdf>])
 No file index.gls.
 No file index.ind.
-) [16] (./index.aux)
+) [19] (./index.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 10806 strings out of 493848
- 151586 string characters out of 3149207
- 306226 words of memory out of 3000000
- 13815 multiletter control sequences out of 15000+200000
- 15894 words of font info for 36 fonts, out of 3000000 for 9000
+ 10838 strings out of 493848
+ 152009 string characters out of 3149207
+ 307109 words of memory out of 3000000
+ 13832 multiletter control sequences out of 15000+200000
+ 17272 words of font info for 39 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 46i,12n,38p,1664b,402s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 46i,12n,38p,1668b,446s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2009/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
 /usr/local/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></u
@@ -1109,14 +1132,15 @@ xlive/2009/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texl
 ive/2009/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texliv
 e/2009/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/
 2009/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/20
-09/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2009
-/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2009/t
-exmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2009/tex
-mf-dist/fonts/type1/public/cm-super/sfsl1000.pfb></usr/local/texlive/2009/texmf
--dist/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on index.pdf (16 pages, 1504685 bytes).
+09/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2009
+/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2009/t
+exmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2009/tex
+mf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2009/texmf
+-dist/fonts/type1/public/cm-super/sfsl1000.pfb></usr/local/texlive/2009/texmf-d
+ist/fonts/type1/public/cm-super/sfti1000.pfb>
+Output written on index.pdf (19 pages, 1991686 bytes).
 PDF statistics:
- 426 PDF objects out of 1000 (max. 8388607)
- 62 named destinations out of 1000 (max. 500000)
- 157 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 501 PDF objects out of 1000 (max. 8388607)
+ 73 named destinations out of 1000 (max. 500000)
+ 178 words of extra memory for PDF output out of 10000 (max. 10000000)
 

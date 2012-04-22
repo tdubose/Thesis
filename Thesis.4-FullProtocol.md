@@ -16,7 +16,7 @@ since the NHS replacement can occur on any lysine or N terminus (of which there 
 
 [fullprotocol]: 2011DecPEGylation.pdf
 
-![Structure dimensions of an IgG antibody. From [][#antibodylength].][iggstructure] 
+![Structural dimensions of an IgG antibody. From [][#antibodylength].][iggstructure] 
 
 [iggstructure]: iggstructure.pdf width=3in
 

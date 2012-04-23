@@ -1,6 +1,6 @@
-With the questions about OPN-to-antibody and OPAb-to-nanosphere binding settled, it still remained to determine the optimal concentration of PEG-SH (PS). The PEG-SH is used expressly for the purpose of protecting the gold nanospheres from agglomerating when placed in a salt solution, e.g. the PBS present in a cell culture. However, Ellis and Hoidn found that the 1 kDa PEG-SH used since PEGylation was first introducted[][#warren] failed to adequately protect the spheres, leading to a significant degree of agglomeration, as show in [](#Protection1kDa). A footnote found by Ellis and Hoidn in Lowery et al.[][#westpegylation] noted that PEG-SH with a molecular weight less than 5 kDa does not protect gold, explaining the failure of the 1.2 kDa PEG-SH.
+With the questions about OPN-to-antibody and OPAb-to-nanosphere binding settled, it still remained to determine the optimal concentration of PEG-SH (PS). The PEG-SH is used expressly for the purpose of protecting the gold nanospheres from agglomerating when placed in a salt solution, e.g. the phosphate-buffered saline (PBS) solution present in a cell culture. However, Ellis and Hoidn found that the 1 kDa PEG-SH used since PEGylation was first introduced[][#warren] failed to adequately protect the spheres, leading to a significant degree of agglomeration, as shown in [](#Protection1kDa). A footnote found by Ellis and Hoidn in Lowery et al.[][#westpegylation] noted that PEG-SH with a molecular weight less than 5 kDa does not protect gold, explaining the failure of the 1.2 kDa PEG-SH.
 
-![Histogram of radii of acquisitions of 300k 1 kDa PS/Au with and without PBS from Summer 2010. The distribution is noticeably shifted to the right and flattened after the addition of PBS. Data taken by Ellis and Hoidn[][#hoidnellis].][Protection1kDa]
+![Histogram of radii of acquisitions of \\(3\times10^6\\) 1 kDa PS/Au with and without PBS from Summer 2010. The distribution is noticeably shifted to the right and flattened after the addition of PBS. Data taken by Ellis and Hoidn[][#hoidnellis].][Protection1kDa]
 
 [Protection1kDa]: ../../../Archived.Work/HMC.11.SP/Research/Protection1kDa.pdf width=4in
 
@@ -30,21 +30,21 @@ The same samples used in the titration study were measured again after 48-72 hou
 
 The plateau in this graph is much sharper than in [](#5kdaPEGSHnewavg), indicating that van der Waals forces and thiol bonding processes are in competition, with van der Waals binding dominating immediately after addition, but the lower-energy thiol bonds dominating after incubation time. This leads to the increased radius of the lower-radius samples and the decreased radius of the higher-radius samples. However, the plateau region still has \\(R=60.3\pm0.3\\) nm, as a second indication of a monolayer. Clearly, it is essential that PEG-SH be allowed to incubate with spheres to allow for the PEG-SH binding to reach equilibrium.
 
-More information about the final monolayer state can be gained from determining the apparent number of PEG-SH molecules bound to the nanosphere. A single 5 kDa PEG-SH molecule, with a density of $1.11\,\mathrm{\frac{g}{cm^3}}$, has a volume of 
+More information about the final monolayer state can be gained from determining the apparent number of PEG-SH molecules bound to the nanosphere. A single 5 kDa PEG-SH molecule, with a density of \\(1.11\,\mathrm{\frac{g}{cm^3}}\\), has a volume of 
 \\[\mathrm{V_{5\,kDa\ PEG-SH}}
 =\frac{5\mathrm{kDa}}{1.11\frac{\mathrm g}{\mathrm cm^3}}=7.5\mathrm{\,nm^3}\\]
 This means that a 5 kDa PEG-SH monolayer has, based on the change in hydrodynamic radius,
 \\[\#_{\mathrm{5\,kDa\ PEG-SH}}=
 \frac{\frac{4}{3}\pi((60.5\mathrm{\,nm})^3-(51.5\mathrm{\,nm})^3)} {V_{\mathrm{5\,kDa\ PEG-SH}}}=47,500\mathrm{\ 5\,kDa\ PEG-SH}\\]
-This indicates that the measurement of the plateau as beginning at 50,000 PEG-SH per nanosphere is correct. This also allows us to get a sense of the effective \texttt{width}(Prof. Haskell: word choice?) of a PEG-SH molecule as it sits on the gold. At monolayer concentration, the area on the surface of the gold taken up by each PEG-SH molecules is 
-\\[A_{\mathrm{PS}}=\frac{4\pi(51.5\mathrm{\,nm})^2/\mathrm{Au}} {47,500\,\mathrm{\frac{PS}{Au}}}=0.70\mathrm{nm}^2=70\mathrm{A}^2\\]
+This indicates that the measurement of the plateau as beginning at 50,000 PEG-SH per nanosphere is correct. This also allows us to get a sense of the effective footprint of a PEG-SH molecule as it sits on the gold. At monolayer concentration, the area on the surface of the gold taken up by each PEG-SH molecules is 
+\\[A_{\mathrm{PS}}=\frac{4\pi(51.5\mathrm{\,nm})^2/\mathrm{Au}} {47,500\,\mathrm{\frac{PS}{Au}}}=0.70\frac{\mathrm{nm}^2}{\mathrm{PS}}=70\frac{\AA^2}{\mathrm{PS}}\\]
 This size is determined partially by the atomic size of the sulfur atom (\\(D=2\mathrm{A}\\)), but mostly by the extent to which the PEG chain is bunched; clearly, most of the effective width comes from the bunching.
 
 ### Protection Study ###
 
-As mentioned above, the main reason for using 5 kDa PEG-SH is to prevent the Au nanospheres from conglomeration. The Au nanosphere solution includes a negatively charged capping agent that makes the spheres repel each other; when the solution is buffered at pH ~7.5 to prevent antibodies from denaturing during the full immunogold procedure, positive ions are introduced into the solution that neutralize the capping agents, causing the gold nanospheres to agglomerate. Theoretically, PEG-SH would prevent this from happening, but 1 kDa PEG-SH does not, as shown in [](#Protection1kDa).
+As mentioned above, the main reason for using 5 kDa PEG-SH is to prevent the Au nanospheres from agglomerating. The Au nanosphere solution includes a negatively charged capping agent that makes the spheres repel each other; when the solution is buffered at pH ~7.5 to prevent antibodies from denaturing during the full immunogold procedure, positive ions are introduced into the solution that neutralize the capping agents, causing the gold nanospheres to agglomerate. Theoretically, PEG-SH would prevent this from happening, but 1 kDa PEG-SH does not, as shown in [](#Protection1kDa).
 
-Therefore, the protection capabilities of 5 kDa PS were tested by adding PEG-SH to the Au nanospheres in various concentrations, then mixing those solutions in equal volumes with commercial phosphate buffered saline. The spheres were allowed to incubate for at least 30 minutes with the PBS, then measured in the DLS. Selected results from those measurements are shown in [](#protection).
+Therefore, the protection capabilities of 5 kDa PS were tested by adding PEG-SH to the Au nanospheres in various concentrations, then mixing those solutions in equal volumes with commercial PBS, which has a salt concentration over 100 mM!!. The spheres were allowed to incubate for at least 30 minutes with the PBS, then measured in the DLS. Selected results from those measurements are shown in [](#protection).
 
 ![Stacked histograms of differing concentrations of Au-PS with and without PBS. The naked gold is significantly broader than any of the other distributions.][protection]
 

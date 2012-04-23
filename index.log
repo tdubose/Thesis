@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009) (format=pdflatex 2009.11.7)  22 APR 2012 15:41
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009) (format=pdflatex 2009.11.7)  22 APR 2012 21:22
 entering extended mode
  %&-line parsing enabled.
-**index.tex
+**index
 (./index.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
@@ -1079,7 +1079,7 @@ e.pdf>]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 13.
 
-Overfull \hbox (19.88394pt too wide) in paragraph at lines 13--26
+Overfull \hbox (16.23624pt too wide) in paragraph at lines 13--26
  [][] 
  []
 
@@ -1087,39 +1087,42 @@ Overfull \hbox (19.88394pt too wide) in paragraph at lines 13--26
 LaTeX Warning: Reference `a:6marprotocol' on page 16 undefined on input line 32
 .
 
-[16]
-
-LaTeX Warning: Reference `marocmcollage' on page 17 undefined on input line 52.
-
-
-<ConfocalReps.pdf, id=354, 1577.94229pt x 2376.69424pt>
+[16] <ConfocalReps.pdf, id=354, 1577.94229pt x 2376.69424pt>
 File: ConfocalReps.pdf Graphic file (type pdf)
- <use ConfocalReps.pdf>
+
+<use ConfocalReps.pdf>
 
 LaTeX Warning: Float too large for page by 74.4431pt on input line 59.
 
-) (./Thesis.6-3aprLabeling.tex)
+<6marSOSgraph.pdf, id=357, 780.9175pt x 491.8375pt>
+File: 6marSOSgraph.pdf Graphic file (type pdf)
+ <use 6marSOSgraph.pdf>
+<6marocmreprimages.pdf, id=358, 2007.5pt x 2007.5pt>
+File: 6marocmreprimages.pdf Graphic file (type pdf)
+
+<use 6marocmreprimages.pdf>) (./Thesis.6-3aprLabeling.tex)
 (/Users/Theo/Library/texmf/tex/latex/mmd/mmd-memoir-footer.tex (./index.bbl
 (./index.brf)
 \tf@brf=\write9
 \openout9 = `index.brf'.
 
- [17] [18 <./ConfocalReps.pdf>])
+ [17] [18 <./ConfocalReps.pdf>] [19 <./6marSOSgraph.pdf>] [20 <./6marocmreprima
+ges.pdf>])
 No file index.gls.
 No file index.ind.
-) [19] (./index.aux)
+) [21] (./index.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 10838 strings out of 493848
- 152009 string characters out of 3149207
- 307109 words of memory out of 3000000
- 13832 multiletter control sequences out of 15000+200000
+ 10853 strings out of 493848
+ 152281 string characters out of 3149207
+ 307837 words of memory out of 3000000
+ 13841 multiletter control sequences out of 15000+200000
  17272 words of font info for 39 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 46i,12n,38p,1668b,446s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 46i,12n,38p,1664b,450s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2009/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
 /usr/local/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></u
@@ -1138,9 +1141,9 @@ exmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2009/tex
 mf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2009/texmf
 -dist/fonts/type1/public/cm-super/sfsl1000.pfb></usr/local/texlive/2009/texmf-d
 ist/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on index.pdf (19 pages, 1991686 bytes).
+Output written on index.pdf (21 pages, 3052935 bytes).
 PDF statistics:
- 501 PDF objects out of 1000 (max. 8388607)
- 73 named destinations out of 1000 (max. 500000)
- 178 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 559 PDF objects out of 1000 (max. 8388607)
+ 77 named destinations out of 1000 (max. 500000)
+ 188 words of extra memory for PDF output out of 10000 (max. 10000000)
 

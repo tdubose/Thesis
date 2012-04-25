@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009) (format=pdflatex 2009.11.7)  24 APR 2012 16:57
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009) (format=pdflatex 2009.11.7)  25 APR 2012 00:46
 entering extended mode
  %&-line parsing enabled.
 **index
@@ -1113,19 +1113,34 @@ File: 6marocmreprimages.pdf Graphic file (type pdf)
 LaTeX Warning: Reference `a:3aprprotocol' on page 22 undefined on input line 35
 .
 
-<3aprOCMreps.pdf, id=475, 2057.6875pt x 2880.7625pt>
+[22] <3aprSOSgraph.pdf, id=485, 989.6975pt x 620.3175pt>
+File: 3aprSOSgraph.pdf Graphic file (type pdf)
+
+<use 3aprSOSgraph.pdf> <3aprOCMreps.pdf, id=486, 2057.6875pt x 2880.7625pt>
 File: 3aprOCMreps.pdf Graphic file (type pdf)
- <use 3aprOCMreps.pdf>)
-[22] [23 <./3aprOCMreps.pdf>]
-(/Users/Theo/Library/texmf/tex/latex/mmd/mmd-memoir-footer.tex (./index.bbl
-(./index.brf)
+
+<use 3aprOCMreps.pdf> [23 <./3aprSOSgraph.pdf>] [24 <./3aprOCMreps.pdf>]
+<NormalizedSvx2.pdf, id=552, 679.53876pt x 561.09625pt>
+File: NormalizedSvx2.pdf Graphic file (type pdf)
+
+<use NormalizedSvx2.pdf>
+
+LaTeX Warning: Reference `normalization' on page 25 undefined on input line 88.
+
+
+
+LaTeX Warning: Reference `normalization' on page 25 undefined on input line 88.
+
+
+) [25] (/Users/Theo/Library/texmf/tex/latex/mmd/mmd-memoir-footer.tex
+(./index.bbl (./index.brf)
 \tf@brf=\write9
 \openout9 = `index.brf'.
 
-)
+ [26 <./NormalizedSvx2.pdf>])
 No file index.gls.
 No file index.ind.
-) [24] (./index.aux)
+) [27] (./index.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1134,13 +1149,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 10870 strings out of 493848
- 152499 string characters out of 3149207
- 309433 words of memory out of 3000000
- 13848 multiletter control sequences out of 15000+200000
+ 10890 strings out of 493848
+ 152821 string characters out of 3149207
+ 310244 words of memory out of 3000000
+ 13860 multiletter control sequences out of 15000+200000
  17272 words of font info for 39 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 46i,12n,38p,1664b,306s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 46i,12n,38p,1664b,424s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2009/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
 /usr/local/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></u
@@ -1159,9 +1174,9 @@ exmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2009/tex
 mf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2009/texmf
 -dist/fonts/type1/public/cm-super/sfsl1000.pfb></usr/local/texlive/2009/texmf-d
 ist/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on index.pdf (24 pages, 4251187 bytes).
+Output written on index.pdf (27 pages, 4289599 bytes).
 PDF statistics:
- 631 PDF objects out of 1000 (max. 8388607)
- 86 named destinations out of 1000 (max. 500000)
- 209 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 674 PDF objects out of 1000 (max. 8388607)
+ 92 named destinations out of 1000 (max. 500000)
+ 219 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -7,7 +7,7 @@
 \usepackage{booktabs}         % Publication-quality tables.
 \usepackage{natbib}           % Provides some nice citation and
                               % bibliography formatting commands.
-\bibpunct[:~]{(}{)}{;}{a}{,}{,~} % Set some defaults for bibliographic
+\bibpunct[:~]{[}{]}{,}{n}{,}{,~} % Set some defaults for bibliographic
                                  % punctuation used by natbib.sty.
 \usepackage{verbatim}
 \usepackage{graphicx}
@@ -189,21 +189,16 @@ introduction
 
 \input{./Thesis.7-ConclusionsFutureWork.tex}
 
-\newpage
-
 \appendix
 \chapter{The PEGylation Protocol}
 \label{ThePEGylationProtocol}
 
 \input{./Thesis.A1-PEGylationProtocol.tex}
-
-\newpage
 \chapter{The 6 March Immunolabeling Protocol}
 \label{The6MarchImmunolabelingProtocol}
 
 \input{./Thesis.A2-6marLabelingProtocol.tex}
 
-\newpage
 \chapter{The 3 April Immunolabeling Protocol}
 \label{The3AprilImmunolabelingProtocol}
 
@@ -213,7 +208,7 @@ introduction
 
 \backmatter
 
-\bibliographystyle{plainnat}
+\bibliographystyle{plain}
 
 \bibliography{theis}
 

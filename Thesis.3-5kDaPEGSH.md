@@ -37,8 +37,8 @@ This means that a 5 kDa PEG-SH monolayer has, based on the change in hydrodynami
 \\[\#_{\mathrm{5\,kDa\ PEG-SH}}=
 \frac{\frac{4}{3}\pi((60.5\mathrm{\,nm})^3-(51.5\mathrm{\,nm})^3)} {V_{\mathrm{5\,kDa\ PEG-SH}}}=47,500\mathrm{\ 5\,kDa\ PEG-SH}\\]
 This indicates that the measurement of the plateau as beginning at 50,000 PEG-SH per nanosphere is correct. This also allows us to get a sense of the effective footprint of a PEG-SH molecule as it sits on the gold. At monolayer concentration, the area on the surface of the gold taken up by each PEG-SH molecules is 
-\\[A_{\mathrm{PS}}=\frac{4\pi(51.5\mathrm{\,nm})^2/\mathrm{Au}} {47,500\,\mathrm{\frac{PS}{Au}}}=0.70\frac{\mathrm{nm}^2}{\mathrm{PS}}=70\frac{\AA^2}{\mathrm{PS}}\\]
-This size is determined partially by the atomic size of the sulfur atom (\\(D=2\mathrm{A}\\)), but mostly by the extent to which the PEG chain is bunched; clearly, most of the effective width comes from the bunching.
+\\[A_{\mathrm{PS}}=\frac{4\pi(51.5\mathrm{\,nm})^2/\mathrm{Au}} {47,500\,\mathrm{\frac{PS}{Au}}}=0.70\frac{\mathrm{nm}^2}{\mathrm{PS}}=70\frac{\text{\AA}^2}{\mathrm{PS}}\\]
+This size is determined partially by the atomic size of the sulfur atom (\\(D=2\text{\AA}\\)), but mostly by the extent to which the PEG chain is bunched; clearly, most of the effective width comes from the bunching.
 
 ### Protection Study ###
 

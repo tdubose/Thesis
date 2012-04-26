@@ -4,6 +4,7 @@ With the PEGylation process fully optimized, we took the first step towards immu
 
 Several different preparations were used to determine the efficacy of the immunolabeling process. Each of them removes one or more key components of the process, which should yield to very little increase in the scattering contrast. The 6 preparations and their expected outcomes are described in the table below.
 
+<!-- \rowcolors{1}{}{lightgray} -->
 | Preparation Name | 1ary Ab? | 2ary Labeler? | +Scattering Expected? | +Fluorescence Expected? |
 |:-----------------|:--------:|:-------------:|:---------------------:|:-----------------------:|
 | Cells Only       |    No    |       No      |           No          |            No           |

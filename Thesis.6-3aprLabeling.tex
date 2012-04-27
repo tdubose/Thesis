@@ -6,16 +6,27 @@ To address these questions, the gold-labeled preparations from the previous expe
 \section{Structure of the Immunolabeling Experiment}
 \label{structureoftheimmunolabelingexperiment}
 
-The 6 preparations and their expected outcomes are described in the table below.
+6 preparations and their expected outcomes are described in \autoref{tab:3AprilPrepTable}. The labeling procedure was changed to remove the permeabilization (and the fluorescent stains, as they cannot label without the permeabilization). Full details are in \autoref{The3AprilImmunolabelingProtocol}, but in brief, the procedure was:
+
+\begin{enumerate}
+\item Fix cells with paraformaldehyde
+
+\item Add primary antibody if appropriate for a given preparation
+
+\item Add appropriate secondary labeler
+\end{enumerate}
+
+Since the permeabilization was removed, the Sytox Green and phalloidin cannot label the intracellular structures; as a result the only fluorescence contrast would come from the AP124F. The permeabilization concerns were specific to the 2Au-labeled preparations, so no confocal fluorescence imaging was performed, only OCM imaging, again using 5 $500\,\mu\mathrm{m}\,\times\,500\,\mu\mathrm{m}$ fields of view.
 
 \rowcolors{1}{}{lightgray} 
-\begin{table}[htbp]
+\begin{table}[htb]
+\caption{Description of the six preparations used in the 3 April immunolabeling experiment; each preparation is described by whether the primary antibody (MAB1999) was added, what secondary labeler (AP124F PEGylated to Au nanospheres or naked Au nanospheres) was added, and whether or not an increase was expected in backscattering.}
 \begin{minipage}{\linewidth}
 \setlength{\tymax}{0.5\linewidth}
 \centering
 \small
-\begin{tabular}{lccc} \toprule
-Preparation Name&1ary Ab?&2ary Labeler?&+Scattering Expected?\\
+\begin{tabular}{lp{2cm}p{2cm}p{2cm}} \toprule
+Preparation Name&Primary Antibody?&Secondary Labeler?&+Scattering Expected?\\
 \midrule
 Cells Only&No&No&No\\
 Au&No&Naked Au&Yes\\
@@ -28,30 +39,17 @@ Coverslip--2Au&No&OPAb-Au-PS&No\\
 
 \end{tabular}
 \end{minipage}
+\label{tab:3AprilPrepTable}
 \end{table}
 
-
-Given the results of the previous immunolabeling experiment, the naked Au is expected to increase scattering by binding to the cells and the coverslip via van der Waals forces. Since the OPAb-Au-PS is protected, it should only bind to the cells with the primary antibody; minimal binding should occur between the OPAb-Au-PS and the coverslip. 
-
-The labeling procedure was changed to remove the permeabilization (and the fluorescent stains, as they cannot label without the permeabilization). Full details are in \autoref{The3AprilImmunolabelingProtocol}, but in brief, the procedure was:
-
-\begin{enumerate}
-\item Fix cells with paraformaldehyde
-
-\item Add primary antibody if appropriate for a given preparation
-
-\item Add appropriate secondary labeler
-
-\end{enumerate}
-
-Each preparation had three different samples to minimize intrinsic variation during inter-preparation comparison. After labeling, each sample was imaged at five different $500\,\mu\mathrm{m}\,\times\,500\,\mu\mathrm{m}$ field of view locations with the OCM.
+The results for the cells only sample should be the same as in the 6 March experiment. If permeabilization is causing gold spheres to become trapped in the cells, the voxels occupied by cellular material in the Au, 2Au, or 1-2Au samples should scatter less than the equivalent voxels for the permeabilized cells. As for the coverslips, the protein and PEG coating on the 2Au should prevent it from binding to the coverslip, resulting in very low scattering. Given the results from 6 March, the naked Au is expected to bind quite strongly to the coverslip via van der Waals forces, resulting in high scattering.
 
 \section{Results of the Immunolabeling Experiment}
 \label{resultsoftheimmunolabelingexperiment}
 
-Representative images from the OCM are shown in \autoref{aprocmreps}. There is a marked difference between the permeabilized and non-permeabilized preparations (\autoref{marocmcollage}) for the 1--2Au and 2Au preparations. First, cellular features are much more easily distinguished. This is likely due to the fact that the cells were allowed to grow on the cover slips for a shorter period than the previous set of cells, leading to a lower level of cell coverage and thus keeping most cells isolated. This lower cell density is harder to observe in the naked Au image due to the high amount of background from the Au nanospheres binding to the coverslip. The coverslip binding is demonstrated directly by the Coverslip-Au preparation: the binding is fairly homogenous and quite high. The Coverslip--2Au preparation also shows some scatterers present in the volume, though far fewer than the Coverslip-Au preparation. This is further evidence of the successful protection of the gold nanospheres by the PEG-SH and OPAb.
+Representative images from the OCM are shown in \autoref{aprocmreps}. There is a marked difference between the permeabilized and non-permeabilized preparations for the 1--2Au and 2Au preparations. First, cellular features are much more easily distinguished. This is likely due to the fact that the cells were allowed to grow on the coverslips for a shorter period than the previous set of cells, leading to a lower level of cell coverage and thus keeping most cells isolated. This lower cell density is harder to observe in the naked Au image due to the high amount of background from the Au nanospheres binding to the coverslip. The coverslip binding is demonstrated directly by the Coverslip-Au preparation: the binding is fairly homogenous and quite high. The Coverslip--2Au preparation also shows some scatterers present in the volume, though far fewer than the Coverslip-Au preparation. This is further evidence of the successful protection of the gold nanospheres by the PEG-SH and OPAb.
 
-The same sum-of-voxels-squared analysis method was used on this set of images; a chart of those values is in \autoref{aprsos}. There is again clear contrast enhancement and again the naked-Au-labeled cells are quite far above the rest of the samples. This time, however, the scattering from the 2Au-labeled cells is greater than the scattering from the 1--2Au-labeled cells in a statistically significant manner. This is exceptionally puzzling, as it suggests that the presence of primary antibody \emph{decreases} the amount of nonspecific quite considerably, either in conjunction with or instead of increasing the amount of specific binding. Clearly, more work must be done to understand this phenomenon.
+The same sum-of-voxels-squared analysis method was used on this set of images; a chart of those values is in \autoref{aprsos}. There is again clear contrast enhancement and again the naked-Au-labeled cells are quite far above the rest of the samples. This time, however, the scattering from the 2Au-labeled cells is greater than the scattering from the 1--2Au-labeled cells in a statistically significant manner. This is exceptionally puzzling, as it suggests that the presence of primary antibody \emph{decreases} the amount of nonspecific binding quite considerably, either in conjunction with or instead of increasing the amount of specific binding. Clearly, more work must be done to understand this phenomenon.
 
 \begin{figure}[htbp]
 \centering
@@ -60,8 +58,6 @@ The same sum-of-voxels-squared analysis method was used on this set of images; a
 \label{aprsos}
 \end{figure}
 
-
-
 \begin{figure}[htbp]
 \centering
 \includegraphics[keepaspectratio,width=\textwidth,height=0.75\textheight]{3aprOCMreps.pdf}
@@ -69,16 +65,13 @@ The same sum-of-voxels-squared analysis method was used on this set of images; a
 \label{aprocmreps}
 \end{figure}
 
-
-
-
-Determining whether or not the permeabilization had an effect is something of a difficult business. Since the cells were at different stages of confluence, the two immunolabeling sessions cannot be compared directly. Rather, some normalization must take into account the different amount of cell coverage. It is not sufficient to simply divide by the scattering from the cells, as that ignores the binding of the spheres to the coverslip. Rather, let us approximate the coverslip and cells as a 2D grid, each pixel of which is either occupied completely by cell or completely by coverslip. Each pixel then contributes, on average, some amount of scattering depending on whether it is cell or coverslip; this amount is determined both by binding affinity and the scattering cross section of the scatterer. The sum of voxels squared, $S_{\mathrm{voxels}^2}$ can then be determined on average as a function of the percent of the viewing region covered by cell, $P$, as
-\[S_{\mathrm{voxels}^2}=C_{\mathrm{Coverslip}}(1-P)+C_{\mathrm{Cell}}P\]
-where $C_{\mathrm{Coverslip}}\mathrm{\ and\ }C_{\mathrm{Cell}}$ are constants determined by the average scattering from a pixel coverslip or cell labeled with the secondary labeler in question, respectively. We can determine $C_{\mathrm{Coverslip}}$ from the coverslip binding sum of voxels squared; since they are taken at $P=0$, $S_{\mathrm{voxels}^2}=C_{\mathrm{Coverslip}}$. From \autoref{aprsos}, $C_{\mathrm{Coverslip,\,Au}}=2.6\pm0.3\times10^7$ and $C_{\mathrm{Coverslip,\,2Au}}=7\pm1\times10^6$. To determine whether or not reducing the permeabilization had an effect, we need to determine $C_{\mathrm{Coverslip}}$ for Au and 2Au. We now see that we cannot simply divide by the scattering of the cells, which is $C_{\mathrm{Cell,\,Cells}}P$, because that would give
-\[S_{\mathrm{norm}}=\frac{C_{\mathrm{Coverslip}}(1/P-1)+C_{\mathrm{Cell}}}{C_{\mathrm{Cell,\,Cells}}}\]
+Determining whether or not the permeabilization had an effect is something of a difficult business. Since the cells were at different stages of confluence, the two immunolabeling sessions cannot be compared directly. Rather, some normalization must take into account the different amount of cell coverage. It is not sufficient to simply divide by the scattering from the cells, as that ignores the binding of the spheres to the coverslip. Rather, let us approximate the coverslip and cells as a 2D grid, each pixel of which is either occupied completely by cell or completely by coverslip. Each pixel then contributes, on average, some amount of scattering depending on whether it is cell or coverslip; this amount is determined both by binding affinity and the scattering cross section of the scatterer. The sum of voxels squared, $S_{\mathrm{voxels}^2}$ can then be determined on average as a function of the fraction $F$ of the viewing region covered by cell as
+\[S_{\mathrm{voxels}^2}=S_{\mathrm{Coverslip}}(1-P)+S_{\mathrm{Cell}}P\]
+where $C_{\mathrm{Coverslip}}\mathrm{\ and\ }C_{\mathrm{Cell}}$ are the scattering from a view of view filled by coverslip or cellular materials labeled with the secondary labeler in question, respectively. We can determine $C_{\mathrm{Coverslip}}$ from the coverslip binding sum of voxels squared; since they are taken at $P=0$, $S_{\mathrm{voxels}^2}=C_{\mathrm{Coverslip}}$. From \autoref{aprsos}, $C_{\mathrm{Coverslip,\,Au}}=2.6\pm0.3\times10^7$ and $C_{\mathrm{Coverslip,\,2Au}}=7\pm1\times10^6$. To determine whether or not reducing the permeabilization had an effect, we need to determine $C_{\mathrm{Cell}}$ for Au and 2Au. We now see that we cannot simply divide by the scattering of the cells, which is $C_{\mathrm{Cell,\,No\, Label}}P$, because that would give
+\[S_{\mathrm{norm}}=\frac{C_{\mathrm{Coverslip}}(1/P-1)+C_{\mathrm{Cell}}}{C_{\mathrm{Cell,\,No\, Label}}}\]
 which still has $P$ dependence. However, if we first normalize by subtracting $C_{\mathrm{coverslip}}$, we get
 \begin{equation}
-S_{\mathrm{norm}}=\frac{S_{\mathrm{voxels}^2}-C_{\mathrm{Coverslip}}}{S_{Cells}}=\frac{-C_{\mathrm{Coverslip}}+C_{\mathrm{Cell}}}{C_{\mathrm{Cell,\,Cells}}}
+S_{\mathrm{norm}}=\frac{S_{\mathrm{voxels}^2}-C_{\mathrm{Coverslip}}}{S_{Cells}}=\frac{-C_{\mathrm{Coverslip}}+C_{\mathrm{Cell}}}{C_{\mathrm{Cell,\,No\, Label}}}
 \label{eq:normalization}
 \end{equation}
 This is sufficient to perform comparisons between the two immunolabeling sessions, as it does not depend on $P$ at all; $C_{\mathrm{Cell}}$ could be calculated with sufficient image analysis, but generating a large enough dataset to adequately calculate it is beyond the scope of of the studies performed. The results of performing this normalization are shown in \autoref{normalizedsvx2}. For the naked Au the difference is actually the opposite of expected: the permeabilization decreases the amount of scattering per cell coverage; however, the uncertainties on this calculation are quite large, and consequently the difference is statistically consistent with 0. The same hold for the 2Au preparation, though the uncertainties are somewhat smaller and it shows the expected decrease. 1--2Au is the only preparation with a statistically significant difference, and the difference is quite large. Therefore, though there is a large amount of statistical uncertainty, permeabilization does appear to reduce the amount of scattering, which implies that gold spheres are getting inside of the cells. As this is undesirable, and the OCM imaging does not benefit from the fluorescent stains, permeabilization should not be used in future immunolabeling experiments.
